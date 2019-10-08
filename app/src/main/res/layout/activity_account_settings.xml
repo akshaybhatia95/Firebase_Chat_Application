@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.d.unitedtochat.AccountSettings">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/viewlogo"
+        android:layout_marginTop="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/circleImageView" />
+
+    <TextView
+        android:id="@+id/settingsDisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circleImageView"
+        android:layout_marginTop="58dp"
+        android:hint="DISPLAY NAME"
+        android:layout_alignStart="@+id/settingsStatus"
+        android:layout_alignEnd="@+id/settingsStatus" />
+
+    <TextView
+        android:id="@+id/settingsStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:hint="write a status"
+        android:layout_below="@+id/settingsDisplayName"
+        android:layout_alignEnd="@+id/circleImageView"
+        android:layout_alignStart="@+id/circleImageView" />
+
+    <Button
+        android:id="@+id/changeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settingsStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="CHANGE DISPLAY PICTURE" />
+
+    <Button
+        android:id="@+id/changeStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/changeImage"
+        android:layout_alignStart="@+id/changeImage"
+        android:layout_below="@+id/changeImage"
+        android:layout_marginTop="18dp"
+        android:text="CHANGE STATUS" />
+     </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

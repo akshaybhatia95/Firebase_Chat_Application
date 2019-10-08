@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "23406387383",
+    "firebase_url": "https://unitedtochat2.firebaseio.com",
+    "project_id": "unitedtochat2",
+    "storage_bucket": "unitedtochat2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23406387383:android:b635ba2592c0d041",
+        "android_client_info": {
+          "package_name": "com.example.d.unitedtochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23406387383-7299vd1pg78mpfpbg4kud3n3ptipqc5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.d.unitedtochat",
+            "certificate_hash": "ed4db88cbc034977d131b0a574e45f281d302613"
+          }
+        },
+        {
+          "client_id": "23406387383-7cqj1f7r7afhu25lk4v3pf1v94rvvkj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaamsqdp5ZyedxUsLxXjDM7jt5EOnhgpY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23406387383-7cqj1f7r7afhu25lk4v3pf1v94rvvkj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
